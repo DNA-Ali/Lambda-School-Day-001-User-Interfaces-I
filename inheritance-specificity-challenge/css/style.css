@@ -1,40 +1,40 @@
-.parent {
+.parent p {
   color: red;
 }
 
-.child {
-  color:blue;
+.parent .child p {
+  color: blue;
 }
 
-.grandchild{
-  color:green;
+.parent .child .grandchild  p {
+  color: green;
 }
 
-.greatgrandchild{
-  color:pink;
+.parent .child .grandchild .greatgrandchild  p {
+  color: pink;
 }
 
-.greatgrandchild.greatgrandchild2{
-  color:purple;
+.parent .child .grandchild .greatgrandchild2 p {
+  color: purple;
 }
 
-.child.child2{
-  color:coral;
+.parent .child2 p {
+  color: coral;
 }
 
-.child.child2 .grandchild {
+.parent .child2 .grandchild p {
   color: aqua;
 }
 
-.child.child2 .grandchild .greatgrandchild {
-  color:rosybrown;
+.parent .child2 .grandchild .greatgrandchild p {
+  color: rosybrown;
 }
 
-.parent .child2 .grandchild2 {
-  color: black;
+.parent .child2 .grandchild2 p {
+  color: sienna;
 }
 
-.parent .child2 .grandchild2 .greatgrandchild {
+.parent .child2 .grandchild2 .greatgrandchild p {
   color: tomato;
 }
 
